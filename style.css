@@ -7,6 +7,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/****** 
+*******  reusable
+******/
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /****** 
 *******  header
@@ -18,16 +25,46 @@ header{
     background-size: cover;
 }
 
+#logo img{
+    width: 100px;
+    position: absolute;
+    top: 2%;
+}
+
+nav ul{
+    float: right;
+    margin-top: 45px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:active{
+    border-bottom: 1px solid #093691;
+}
+
+
+
 .header-text{
     position: absolute;
     top: 35%;
-    left: 50%;
+    left: 39%;
     transform: translate(-50%,-50%);
 }
 
 .header-text h1 {
     color: #fff;
-    font-size: 30px;
+    font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     word-spacing: 5px;
@@ -38,18 +75,37 @@ header{
     color: #fff;
     text-decoration: none;
     font-size: 20px;
-    border: 1px solid #fbfbe3;
     border-radius: 10px;
     padding: 5px 5px;
     margin-top: 20px;
     letter-spacing: 0.6px;
 }
 
-.btn-vlevo{
-    background: #fbfbe3;
-    color: #000;
+.btn-vlevo:link,
+.btn-vlevo:visited{
+    background: #093691;
+    border: 1px solid #093691;
+    color: #fff;
 }
 
-.btn-vpravo{
+.btn-vlevo:hover,
+.btn-vlevo:active{
+    transition: background 0.4s;
+    background: #487ff0;
+    border: 1px solid #487ff0;
+}
+
+
+
+.btn-vpravo:link,
+.btn-vpravo:visited {
     margin-left: 10px;
+    border: 1px solid #487ff0;
+}
+
+.btn-vpravo:hover,
+.btn-vpravo:active {
+    transition: background 0.4s;
+    background: #487ff0;
+    border: 1px solid #487ff0;
 }
