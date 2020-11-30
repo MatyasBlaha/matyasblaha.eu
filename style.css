@@ -35,6 +35,7 @@
 
 header{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("img/food.jpg");
+    background-attachment: fixed;
     height: 100vh;
     background-size: cover;
 }
@@ -152,7 +153,7 @@ nav ul li a:active{
 }
 
 .text-burger{
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 .text-burger div{
@@ -176,7 +177,9 @@ nav ul li a:active{
 
 
 .reference{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/food.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/food.jpg);
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .reference h2{
@@ -240,6 +243,93 @@ nav ul li a:active{
     opacity: 1;
     transition: transform 0.5s, opacity 0.5s;
 }
+
+
+
+/****** 
+*******  Contact form ***********************
+******/
+
+
+.contact-form{
+    width: 800px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contact-form input{
+    width: 80%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+    font-size: 16px;
+}
+
+.contact-form textarea{
+    width: 80%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    background-color: #487ff0;
+    color: #fff;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active{
+    background-color: #093691;
+    transition: background 0.5s;
+}
+
+
+
+/****** 
+*******  Footer ***********************
+******/
+
+
+.footer-page{
+    background: #093691;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.social{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social p{
+    display: inline;
+}
+
+.social p a:link,
+.social p a:visited{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social p a:hover,
+.social p a:active{
+    color: #000;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
 
 
 /****** 
