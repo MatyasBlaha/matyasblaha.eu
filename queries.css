@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px){
+    .photo-segment{
+        margin: 0 80px;
+    }
+
+    .photo-segment li{
+        width: 100%;
+    }
+
+    .photo-segment .col{
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .photo-segment{
+        margin: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .photo-segment{
+        margin: 5px;
+    }
+
+    .photo-segment li{
+        margin: 5px 0;
+    }
+}
+
+
+@media only screen and (max-width: 360px){
+    .photo-segment li{
+        height: 500px;
+    }
+    
+    .photo-segment img{
+        height: 500px;
+    }
+}
